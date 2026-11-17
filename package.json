@@ -1,0 +1,37 @@
+{
+  "name": "agent-ledger",
+  "version": "1.0.0",
+  "description": "Agent run ledger: compound success rate, cost per completed task, and permission over-grant audit from a JSONL event stream",
+  "bin": {
+    "agent-ledger": "bin/ledger.js"
+  },
+  "main": "lib/analyze.js",
+  "files": [
+    "lib",
+    "bin",
+    "data",
+    "policy.json",
+    "examples",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "demo": "node bin/ledger.js data/sample-runs.jsonl --policy policy.json",
+    "demo:html": "node bin/ledger.js data/sample-runs.jsonl --policy policy.json --html report.html",
+    "mcp": "node bin/ledger.js --mcp"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "agent",
+    "observability",
+    "cost-attribution",
+    "mcp",
+    "jsonl",
+    "audit",
+    "zero-dependency"
+  ],
+  "license": "SEE LICENSE IN LICENSE",
+  "private": false
+}

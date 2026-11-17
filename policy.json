@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "name": "acme-agent-default",
+  "note": "示例权限声明。换成你自己 agent 实际授予的工具集，over-grant 才准。",
+  "allow": [
+    "read_file",
+    "list_dir",
+    "grep",
+    "write_file",
+    "bash",
+    "web_fetch",
+    "web_search",
+    "http_post",
+    "delete_file"
+  ],
+  "deny": [
+    "delete_file"
+  ],
+  "tasks": {
+    "migrate-db": {
+      "allow": ["read_file", "list_dir", "grep"],
+      "note": "数据库迁移任务不要给任意命令执行"
+    }
+  }
+}

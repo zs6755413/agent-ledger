@@ -1,0 +1,62 @@
+{"ts":"2026-11-17T09:12:03Z","run":"r1","task":"add-pagination","repo":"acme/api","step":1,"type":"model","model":"gpt-6.1-terra","in":11240,"out":780,"usd":0.01514,"ms":3120,"ok":true}
+{"ts":"2026-11-17T09:12:11Z","run":"r1","task":"add-pagination","step":2,"type":"tool","tool":"read_file","ms":8,"ok":true}
+{"ts":"2026-11-17T09:12:40Z","run":"r1","task":"add-pagination","step":3,"type":"model","model":"gpt-6.1-terra","in":12480,"out":0,"usd":0.01248,"ms":980,"ok":false,"error":"context_length_exceeded"}
+{"ts":"2026-11-17T09:13:02Z","run":"r1","task":"add-pagination","step":3,"type":"model","model":"gpt-6.1-terra","in":9800,"out":640,"usd":0.013,"ms":2890,"ok":true,"retry":1}
+{"ts":"2026-11-17T09:13:20Z","run":"r1","task":"add-pagination","step":4,"type":"tool","tool":"write_file","ms":14,"ok":true}
+{"ts":"2026-11-17T09:14:05Z","run":"r1","task":"add-pagination","step":5,"type":"tool","tool":"bash","ms":4210,"ok":true}
+{"ts":"2026-11-17T09:14:30Z","run":"r1","task":"add-pagination","step":6,"type":"model","model":"claude-opus-5.5","in":8600,"out":420,"usd":0.0428,"ms":2100,"ok":true}
+{"ts":"2026-11-17T09:21:10Z","run":"r2","task":"fix-flaky-test","repo":"acme/api","step":1,"type":"model","model":"gpt-6.1-terra","in":13400,"out":520,"usd":0.016,"ms":2600,"ok":true}
+{"ts":"2026-11-17T09:21:20Z","run":"r2","task":"fix-flaky-test","step":2,"type":"tool","tool":"grep","ms":41,"ok":true}
+{"ts":"2026-11-17T09:21:55Z","run":"r2","task":"fix-flaky-test","step":3,"type":"model","model":"gpt-6.1-terra","in":14100,"out":910,"usd":0.01865,"ms":3400,"ok":true}
+{"ts":"2026-11-17T09:22:03Z","run":"r2","task":"fix-flaky-test","step":4,"type":"tool","tool":"read_file","ms":6,"ok":true}
+{"ts":"2026-11-17T09:22:40Z","run":"r2","task":"fix-flaky-test","step":5,"type":"model","model":"claude-opus-5.5","in":15200,"out":1100,"usd":0.0828,"ms":5100,"ok":true}
+{"ts":"2026-11-17T09:22:50Z","run":"r2","task":"fix-flaky-test","step":6,"type":"tool","tool":"write_file","ms":19,"ok":true}
+{"ts":"2026-11-17T09:23:30Z","run":"r2","task":"fix-flaky-test","step":7,"type":"tool","tool":"bash","ms":18400,"ok":false,"error":"tests failed: 3 assertions"}
+{"ts":"2026-11-17T09:24:10Z","run":"r2","task":"fix-flaky-test","step":7,"type":"tool","tool":"bash","ms":17900,"ok":false,"error":"tests failed: 3 assertions","retry":1}
+{"ts":"2026-11-17T09:24:40Z","run":"r2","task":"fix-flaky-test","step":8,"type":"model","model":"gpt-6.1-terra","in":16800,"out":300,"usd":0.0183,"ms":1900,"ok":true}
+{"ts":"2026-11-17T09:31:02Z","run":"r3","task":"refactor-auth","repo":"acme/web","step":1,"type":"model","model":"claude-opus-5.5","in":9200,"out":1400,"usd":0.0648,"ms":6200,"ok":true}
+{"ts":"2026-11-17T09:31:15Z","run":"r3","task":"refactor-auth","step":2,"type":"tool","tool":"list_dir","ms":5,"ok":true}
+{"ts":"2026-11-17T09:31:44Z","run":"r3","task":"refactor-auth","step":3,"type":"tool","tool":"read_file","ms":7,"ok":true}
+{"ts":"2026-11-17T09:32:20Z","run":"r3","task":"refactor-auth","step":4,"type":"model","model":"claude-opus-5.5","in":18600,"out":2200,"usd":0.1184,"ms":8400,"ok":true}
+{"ts":"2026-11-17T09:32:35Z","run":"r3","task":"refactor-auth","step":5,"type":"tool","tool":"write_file","ms":22,"ok":true}
+{"ts":"2026-11-17T09:33:01Z","run":"r3","task":"refactor-auth","step":6,"type":"tool","tool":"read_file","ms":9,"ok":true}
+{"ts":"2026-11-17T09:33:40Z","run":"r3","task":"refactor-auth","step":7,"type":"model","model":"claude-opus-5.5","in":21400,"out":1800,"usd":0.1216,"ms":7600,"ok":true}
+{"ts":"2026-11-17T09:33:52Z","run":"r3","task":"refactor-auth","step":8,"type":"tool","tool":"write_file","ms":17,"ok":true}
+{"ts":"2026-11-17T09:34:20Z","run":"r3","task":"refactor-auth","step":9,"type":"tool","tool":"bash","ms":26300,"ok":true}
+{"ts":"2026-11-17T09:34:50Z","run":"r3","task":"refactor-auth","step":10,"type":"model","model":"gpt-6.1-terra","in":24800,"out":640,"usd":0.028,"ms":2200,"ok":true}
+{"ts":"2026-11-17T09:35:05Z","run":"r3","task":"refactor-auth","step":11,"type":"tool","tool":"bash","ms":9100,"ok":true}
+{"ts":"2026-11-17T09:42:00Z","run":"r4","task":"update-docs","repo":"acme/web","step":1,"type":"model","model":"gpt-6.1-terra","in":7600,"out":1600,"usd":0.0156,"ms":2400,"ok":true}
+{"ts":"2026-11-17T09:42:12Z","run":"r4","task":"update-docs","step":2,"type":"tool","tool":"write_file","ms":11,"ok":true}
+{"ts":"2026-11-17T09:42:20Z","run":"r4","task":"update-docs","step":3,"type":"tool","tool":"bash","ms":3400,"ok":true}
+{"ts":"2026-11-17T09:50:11Z","run":"r5","task":"migrate-db","repo":"acme/api","step":1,"type":"model","model":"claude-opus-5.5","in":10500,"out":900,"usd":0.06,"ms":4800,"ok":true}
+{"ts":"2026-11-17T09:50:24Z","run":"r5","task":"migrate-db","step":2,"type":"tool","tool":"read_file","ms":6,"ok":true}
+{"ts":"2026-11-17T09:50:52Z","run":"r5","task":"migrate-db","step":3,"type":"tool","tool":"bash","ms":0,"ok":false,"error":"policy_denied: bash is not allowed for this task"}
+{"ts":"2026-11-17T09:51:30Z","run":"r5","task":"migrate-db","step":4,"type":"model","model":"claude-opus-5.5","in":11800,"out":700,"usd":0.0612,"ms":4300,"ok":true}
+{"ts":"2026-11-17T09:52:05Z","run":"r5","task":"migrate-db","step":5,"type":"tool","tool":"bash","ms":0,"ok":false,"error":"policy_denied: bash is not allowed for this task"}
+{"ts":"2026-11-17T10:01:30Z","run":"r6","task":"add-search-filter","repo":"acme/web","step":1,"type":"model","model":"gpt-6.1-terra","in":12900,"out":880,"usd":0.0173,"ms":3300,"ok":true}
+{"ts":"2026-11-17T10:01:44Z","run":"r6","task":"add-search-filter","step":2,"type":"tool","tool":"read_file","ms":7,"ok":true}
+{"ts":"2026-11-17T10:02:10Z","run":"r6","task":"add-search-filter","step":3,"type":"model","model":"gpt-6.1-terra","in":13700,"out":1200,"usd":0.0197,"ms":4100,"ok":true}
+{"ts":"2026-11-17T10:02:25Z","run":"r6","task":"add-search-filter","step":4,"type":"tool","tool":"write_file","ms":0,"ok":false,"error":"EACCES: permission denied"}
+{"ts":"2026-11-17T10:02:31Z","run":"r6","task":"add-search-filter","step":4,"type":"tool","tool":"write_file","ms":13,"ok":true,"retry":1}
+{"ts":"2026-11-17T10:02:50Z","run":"r6","task":"add-search-filter","step":5,"type":"tool","tool":"bash","ms":6200,"ok":true}
+{"ts":"2026-11-17T10:03:20Z","run":"r6","task":"add-search-filter","step":6,"type":"model","model":"gpt-6.1-terra","in":15400,"out":520,"usd":0.018,"ms":2000,"ok":true}
+{"ts":"2026-11-17T10:03:30Z","run":"r6","task":"add-search-filter","step":7,"type":"tool","tool":"bash","ms":5800,"ok":true}
+{"ts":"2026-11-17T10:11:02Z","run":"r7","task":"debug-500","repo":"acme/api","step":1,"type":"model","model":"claude-opus-5.5","in":16200,"out":1300,"usd":0.0908,"ms":5900,"ok":true}
+{"ts":"2026-11-17T10:11:18Z","run":"r7","task":"debug-500","step":2,"type":"tool","tool":"grep","ms":88,"ok":true}
+{"ts":"2026-11-17T10:11:55Z","run":"r7","task":"debug-500","step":3,"type":"model","model":"claude-opus-5.5","in":19100,"out":1600,"usd":0.1084,"ms":7100,"ok":true}
+{"ts":"2026-11-17T10:12:08Z","run":"r7","task":"debug-500","step":4,"type":"tool","tool":"read_file","ms":11,"ok":true}
+{"ts":"2026-11-17T10:12:40Z","run":"r7","task":"debug-500","step":5,"type":"model","model":"gpt-6.1-terra","in":22400,"out":940,"usd":0.0271,"ms":3600,"ok":true}
+{"ts":"2026-11-17T10:12:55Z","run":"r7","task":"debug-500","step":6,"type":"tool","tool":"bash","ms":12400,"ok":true}
+{"ts":"2026-11-17T10:13:40Z","run":"r7","task":"debug-500","step":7,"type":"model","model":"claude-opus-5.5","in":26800,"out":2100,"usd":0.1492,"ms":8800,"ok":true}
+{"ts":"2026-11-17T10:13:58Z","run":"r7","task":"debug-500","step":8,"type":"tool","tool":"write_file","ms":16,"ok":true}
+{"ts":"2026-11-17T10:14:50Z","run":"r7","task":"debug-500","step":9,"type":"tool","tool":"bash","ms":31200,"ok":false,"error":"process exited with code 1"}
+{"ts":"2026-11-17T10:21:10Z","run":"r8","task":"optimize-query","repo":"acme/api","step":1,"type":"model","model":"gpt-6.1-terra","in":11800,"out":760,"usd":0.0156,"ms":2900,"ok":true}
+{"ts":"2026-11-17T10:21:22Z","run":"r8","task":"optimize-query","step":2,"type":"tool","tool":"read_file","ms":9,"ok":true}
+{"ts":"2026-11-17T10:21:50Z","run":"r8","task":"optimize-query","step":3,"type":"model","model":"gpt-6.1-terra","in":13600,"out":1080,"usd":0.019,"ms":3900,"ok":true}
+{"ts":"2026-11-17T10:22:05Z","run":"r8","task":"optimize-query","step":4,"type":"tool","tool":"bash","ms":15600,"ok":true}
+{"ts":"2026-11-17T10:22:45Z","run":"r8","task":"optimize-query","step":5,"type":"model","model":"claude-opus-5.5","in":18900,"out":1500,"usd":0.1056,"ms":6900,"ok":true}
+{"ts":"2026-11-17T10:22:58Z","run":"r8","task":"optimize-query","step":6,"type":"tool","tool":"write_file","ms":15,"ok":true}
+{"ts":"2026-11-17T10:23:30Z","run":"r8","task":"optimize-query","step":7,"type":"tool","tool":"bash","ms":21400,"ok":true}
+{"ts":"2026-11-17T10:24:05Z","run":"r8","task":"optimize-query","step":8,"type":"model","model":"gpt-6.1-terra","in":19600,"out":680,"usd":0.023,"ms":2500,"ok":true}
+{"ts":"2026-11-17T10:24:20Z","run":"r8","task":"optimize-query","step":9,"type":"tool","tool":"bash","ms":11200,"ok":true}
+{"ts":"2026-11-17T10:24:50Z","run":"r8","task":"optimize-query","step":10,"type":"model","model":"gpt-6.1-terra","in":17200,"out":420,"usd":0.0193,"ms":1800,"ok":true}
